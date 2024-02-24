@@ -2,7 +2,7 @@ import nahled from '../imgs/nahled.jpg'
 
 export default function Tab() {
     return (
-        <div className="max-w-7xl flex xl:flex-col mt-40 bg-gradient-to-r from-gradstart to-gradend rounded-2xl">
+        <div className="shadow-2xl max-w-7xl flex xl:flex-col mt-40 bg-gradient-to-r from-gradstart to-gradend rounded-2xl">
             <div className="">
                 <img className='h-50 rounded-xl' src={nahled} alt="" />
             </div>

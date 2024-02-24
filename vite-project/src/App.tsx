@@ -9,6 +9,7 @@ import shower from './imgs/shower.png'
 import route from './imgs/route.png'
 import Benefits from './components/benefits'
 import Tab from './components/tab'
+import { YouTubePlayer } from 'react-youtube'
 
 function App() {
 
@@ -26,7 +27,8 @@ function App() {
           <Benefits icon={kids} text="Dětský klub" />
           <Benefits icon={route} text="Přímé napojení na cyklostezku" />
         </div>
-        <Tab/>
+        <Tab/>¨
+        <YouTubePlayer />
       </div>
     </>
   )
