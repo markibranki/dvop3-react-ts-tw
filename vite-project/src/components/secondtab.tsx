@@ -9,7 +9,7 @@ export default function Secondtab() {
                     <br /><br />
                     Aliquam erat volutpat. Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat. Fusce dui leo, imperdiet in, aliquam sit amet, feugiat eu, orci.</p>
             </div>
-            <div className="">
+            <div className="sm:max-w-xl">
                 <YouTubePlayer/>
             </div>            
         </div>

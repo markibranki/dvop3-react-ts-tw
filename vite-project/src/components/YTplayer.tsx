@@ -1,4 +1,3 @@
-import React from 'react';
 import YouTube, { YouTubeProps } from 'react-youtube';
 
 function Example() {
@@ -15,6 +14,8 @@ function Example() {
       autoplay: 1,
     },
   };
-
+  
   return <YouTube videoId="2g811Eo7K8Ub" opts={opts} onReady={onPlayerReady} />;
 }
+
+export default Example;

@@ -10,7 +10,6 @@ import route from './imgs/route.png'
 import Benefits from './components/benefits'
 import Tab from './components/tab'
 import Secondtab from './components/secondtab'
-import YouTubePlayer from 'react-youtube'
 
 function App() {
 
