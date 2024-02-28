@@ -10,12 +10,15 @@ import route from './imgs/route.png'
 import Benefits from './components/benefits'
 import Tab from './components/tab'
 import Secondtab from './components/secondtab'
+import SwiperCustom from './components/SwiperCustom'
+import Barak from './imgs/barak1.jpg'
 
 function App() {
 
   return (
     <>
       <div className='mx-auto sm:mx-8 content-center items-center max-w-fit'>
+        <SwiperCustom image={Barak}/>
         <h1 className='text-primary text-center text-3xl font-semibold m-10'>Plusy</h1>
         <div className="max-w-7xl grid grid-cols-4 gap-4 lg:grid-cols-2 ">
           <Benefits icon={tree} text="1 ha soukromého lesoparku" />
