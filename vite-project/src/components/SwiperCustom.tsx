@@ -23,10 +23,10 @@ export default (props: { image: string }) => {
       onSlideChange={() => console.log("slide change")}
       onSwiper={(swiper) => console.log(swiper)}
     >
-      <SwiperSlide><img src={props.image} alt=""/></SwiperSlide>
-      <SwiperSlide><img src={props.image} alt=""/></SwiperSlide>
-      <SwiperSlide><img src={props.image} alt=""/></SwiperSlide>
-      <SwiperSlide><img src={props.image} alt=""/></SwiperSlide>
+      <SwiperSlide><img className="rounded-xl" src={props.image} alt=""/></SwiperSlide>
+      <SwiperSlide><img className="rounded-xl" src={props.image} alt=""/></SwiperSlide>
+      <SwiperSlide><img className="rounded-xl" src={props.image} alt=""/></SwiperSlide>
+      <SwiperSlide><img className="rounded-xl" src={props.image} alt=""/></SwiperSlide>
     </Swiper>
   );
 };

@@ -17,7 +17,7 @@ function App() {
 
   return (
     <>
-      <div className='mx-auto sm:mx-8 content-center items-center max-w-fit'>
+      <div className='mt-10 mx-auto sm:mx-8 content-center items-center max-w-fit'>
         <SwiperCustom image={Barak}/>
         <h1 className='text-primary text-center text-3xl font-semibold m-10'>Plusy</h1>
         <div className="max-w-7xl grid grid-cols-4 gap-4 lg:grid-cols-2 ">
